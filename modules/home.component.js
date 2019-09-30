@@ -12,10 +12,10 @@ function base64_encode(file) {
 }
 
 module.exports = [
-    { id: 1, category: 'glasses', price: 14.00, img: base64_encode('files/optimized-glasses.jpg') },
-    { id: 2, category: 'hoodies', price: 80.00, img: base64_encode('files/optimized-hoodie.jpg') },
-    { id: 3, category: 't-shirts', price: 30.00, img: base64_encode('files/optimized-shirt.jpg') },
-    { id: 4, category: 'shoes', price: 50.00, img: base64_encode('files/optimized-shoes.jpg') },
-    { id: 5, category: 'shorts', price: 30.00, img: base64_encode('files/optimized-shorts.jpg') },
-    { id: 6, category: 'lifestyle', price: 2000, img: base64_encode('files/optimized-lifestyle.jpg') }
+    { id: 1, category: 'glasses', price: 14.00, img: base64_encode('assets/optimized-glasses.jpg') },
+    { id: 2, category: 'hoodies', price: 80.00, img: base64_encode('assets/optimized-hoodie.jpg') },
+    { id: 3, category: 't-shirts', price: 30.00, img: base64_encode('assets/optimized-shirt.jpg') },
+    { id: 4, category: 'shoes', price: 50.00, img: base64_encode('assets/optimized-shoes.jpg') },
+    { id: 5, category: 'shorts', price: 30.00, img: base64_encode('assets/optimized-shorts.jpg') },
+    { id: 6, category: 'lifestyle', price: 2000, img: base64_encode('assets/optimized-lifestyle.jpg') }
 ]
